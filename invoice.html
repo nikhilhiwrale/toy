@@ -1,0 +1,171 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="css/adminLte.css">  
+
+<section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+          
+
+
+            <!-- Main content -->
+            <div class="invoice p-3 mb-3">
+              <!-- title row -->
+              <div class="row">
+                <div class="col-12">
+                  <h4>
+                    <i class="fas fa-globe"></i> Rent-On, Inc.
+                   
+                  </h4>
+                </div>
+                <!-- /.col -->
+              </div>
+             
+              <!-- info row -->
+              <div class="row invoice-info">
+                <div class="col-sm-4 invoice-col">
+                  Payment Address
+                  <address>
+                    <strong>Nikhil.hiwrale</strong><br>
+                    102 Akar om darshan<br>
+                    Mp Road,Dombivili-421202<br>
+                    Phone: (91) 8693025340<br>
+                    Email: nikhilhiwrale@gmail.com
+                  </address>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4 invoice-col">
+                  Shipping Address
+                  <address>
+                    <strong>Rajesh Gupta</strong><br>
+                    B3/145 Rose Villa<br>
+                    Kumbharkhar pada, Dombivili-421202<br>
+                    Phone: (91) 8879387033<br>
+                    Email: rajesh@gupta.com
+                  </address>
+                </div>
+                <!-- /.col -->
+                
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+ <div class="col-sm-4 invoice-col">
+                  Invoice : <strong> #007612 </strong><br>
+                  <br>
+               
+                </div>
+              <!-- Table row -->
+              <div class="row">
+                <div class="col-12 table-responsive">
+                  <table class="table">
+                    <thead>
+                    <tr>
+                      <th>Qty</th>
+                      <th>Product</th>
+                      <th>Serial #</th>
+                      <th>Subtotal</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Kurta</td>
+                      <td>4551</td>
+                      <td> Rs 700</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Sherwani</td>
+                      <td>5262</td>
+                     
+                      <td>Rs 800</td>
+                   
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+
+              <div class="row">
+                <!-- accepted payments column -->
+                <div class="col-sm-12">
+            
+
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tr>
+                        <th style="width:50%">Subtotal:</th>
+                        <td>Rs 1500</td>
+                      </tr>
+                      <tr>
+                        <th>Tax (18 %)</th>
+                        <td>Rs 270.00</td>
+                      </tr>
+                      <tr>
+                        <th>Shipping:</th>
+                        <td>Rs 30</td>
+                      </tr>
+                      <tr>
+                        <th>Total:</th>
+                        <td>Rs 1800</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                <div class="form-group">
+<label class="col-sm-2 control-label" for="input-order-status">Order Status</label>
+<div class="col-sm-12">
+<select name="order_status_id" id="input-order-status" class="form-control">
+<option value="7">Canceled</option>
+<option value="9">Canceled Reversal</option>
+<option value="13">Chargeback</option>
+<option value="5">Complete</option>
+<option value="8">Denied</option>
+<option value="14">Expired</option>
+<option value="10">Failed</option>
+<option value="1" selected="selected">Pending</option>
+<option value="15">Processed</option>
+<option value="2">Processing</option>
+<option value="11">Refunded</option>
+<option value="12">Reversed</option>
+<option value="3">Shipped</option>
+<option value="16">Voided</option>
+</select>
+</div>
+
+</div>
+                   
+                    
+            <button type="button" class="btn btn-success btn-flat float-left"> 
+                   Update Status
+                  </button>           
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+
+              <!-- this row will not appear when printing -->
+              <div class="row no-print" style="display:none;">
+                <div class="col-12">
+                  <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                  <button type="button" class="btn btn-success float-right"><i class="far fa-credit-card"></i> Submit
+                    Payment
+                  </button>
+                  <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
+                    <i class="fas fa-download"></i> Generate PDF
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- /.invoice -->
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
